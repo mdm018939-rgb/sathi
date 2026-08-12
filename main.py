@@ -10,7 +10,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 logging.basicConfig(level=logging.INFO)
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-BASE_URL = "https://mangoq.onrender.com"
+BASE_URL = "https://sathi-uu2f.onrender.com"
 
 flask_app = Flask(__name__)
 
